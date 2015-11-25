@@ -5,7 +5,7 @@ require 'terrascript/version'
 
 Gem::Specification.new do |spec|
   spec.name        = 'terrascript'
-  spec.version     = Terrascript.VERSION
+  spec.version     = Terrascript::VERSION
   spec.date        = '2015-11-25'
   spec.summary     = 'Terraform DSL generator'
   spec.description = <<-EOS
